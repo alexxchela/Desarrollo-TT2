@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Project\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\Project\Scripts\CoverUncover.cs" />
      <Compile Include="Assets\Project\Scripts\EyeMovements.cs" />
      <Compile Include="Assets\Project\Scripts\EyeSettings.cs" />
     <Reference Include="UnityEngine">
@@ -220,6 +222,9 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>D:/UnityShit/Projects/EyesMovement/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -568,6 +573,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{303b0bac-5381-12da-8224-27f3879f4d51}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{02f57a6c-cf32-bddd-9025-d15762c40266}</Project>
       <Name>Unity.Timeline.Editor</Name>
